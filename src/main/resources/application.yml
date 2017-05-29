@@ -1,0 +1,25 @@
+spring:
+  profiles:
+    active: prod
+#  application:
+#    name: wechat-grade
+  datasource:
+    url: jdbc:mysql://localhost:3306/wechat?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 1234qaz
+    # data-password:  centosDB2017
+    driver-class-name: com.mysql.jdbc.Driver
+
+
+server:
+  port: 10002
+
+regex:
+    evaluate-list: (?<=\")(.*?)#@(.*?)#@(.*?)#@(.*?)#@(.*?)#@(.*?)(?=\")|(??(?=</td>)|??(?=</td>))
+
+
+#logging:
+#  level:
+#    org: debug
+
+

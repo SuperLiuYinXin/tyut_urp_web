@@ -1,0 +1,30 @@
+# 用于保存路径
+path:
+    #文件保存基础地址
+  captcha-save-path: E:\code\javaCode\JavaWeb\springBoot\wechat2.0\wechat-grade\src\main\resources\static\captcha
+    #文件保存基础地址
+  base-path: E:\code\javaCode\JavaWeb\springBoot\wechat2.0\wechat-grade\src\main\resources\static
+    #学校首页ip
+  index: http://202.207.247.49
+    #验证码请求地址
+  captcha-path: /validateCodeAction.do?random=0.501631743124658
+    #登陆地址
+  loginPath: /loginAction.do
+    #登陆地址
+  grade-path: /gradeLnAllAction.do?type=ln&oper=qbinfo
+
+    #教学评估列表页
+  evaluate-list-path: /jxpgXsAction.do?oper=listWj
+
+    #教学评估提交页面
+  evaluate-post-path: /jxpgXsAction.do?oper=wjpg
+
+    #教学评估列表页面
+  evaluate-detail-path: /jxpgXsAction.do
+
+server:
+  port: 10004
+
+logging:
+  path:  F:\web\log
+
